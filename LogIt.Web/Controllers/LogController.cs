@@ -6,9 +6,13 @@ namespace LogIt.Web.Controllers
 
 	public class LogController : Controller
 	{
-		public IActionResult Test()
+		public IActionResult Home()
 		{
-			throw new NotImplementedException();
+			return View();
+		}
+
+		public IActionResult ViewLog(int id){
+			return View();
 		}
 	}
 }

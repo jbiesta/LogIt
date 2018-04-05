@@ -42,7 +42,7 @@ namespace LogIt.Web
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Log}/{action=Home}/{id?}");
             });
         }
     }
